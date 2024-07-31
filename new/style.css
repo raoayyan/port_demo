@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'ubuntu',sans-serif ;
+
+}
+
+.navbar{
+    display: flex;
+    /* border: 2px solid black; */
+    /* background-color: rgb(0, 235, 223); */
+    position: fixed;
+}
+.header{
+
+   font-family: 'ubuntu',sans-serif ;
+    display: flex;
+}
+.first{
+    display: flex;
+
+    
+}
+.first li{
+    padding: 25px 10px;
+    list-style:none;
+    
+   
+}
+.first li a{
+    color: rgb(255, 0, 0);
+}
+.first a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+   
+   
+}
+
+.first span{
+    color: crimson;
+}
+
+.first .port{
+   padding: 10px 0px;
+   margin-left: 100px;
+   font-size: 30pt;
+   margin-right: 550px;
+}
+.first li :hover{
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+#sect{
+    background-image: url("leone-venter-VieM9BdZKFo-unsplash.jpg") ;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    display: flex;
+    height: 800px; 
+   
+}
+
+
+.body{
+margin-top: 300px;
+margin-left: 200px;
+font-family: 'ubuntu',sans-serif ;
+}
+.body p{
+    font-size: 18pt;
+}
+
+
+.body p span{
+    font-size: 29pt;
+    color: crimson;
+}
+.body .btn{
+    /* box-sizing: border-box; */
+   background-color: transparent;
+    padding: 5px 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 17px;
+    font-weight: bold;
+   
+}
+.btn:hover{
+    background-color: crimson;
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+    border: none;
+
+    box-shadow: 0 0 5px crimson, 0 0 10px crimson, 0 0 15px crimson;
+
+}
+#about{
+    /* border: 2px solid black; */
+    height: 700px;
+    display: flex;
+    background-color: rgb(246, 255, 255);
+}
+.yes {
+    /* display: flex;
+    flex-direction: column; */
+    padding: 5px 5px;
+    align-items: center;
+justify-content: center;
+margin-top: 100px;
+}
+.yes h2{
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 25pt;
+   
+}
+.yes img{
+   
+    float: left;
+    height: 357px;
+    width: 30%;
+
+    border: 2px solid black;
+    /* padding: 20px 20px; */
+    border-radius: 8px;
+    margin-left: 141px;
+   
+
+}
+.yes p{
+    display: flex;
+margin-left: 800px;
+/* justify-content: center; */
+width: 30%;
+text-align: justify;
+padding: 10px 10px;
+
+font-size: 15pt;
+}
+.yes  h3{
+    margin-left: 809px;
+    color: crimson;
+    
+}
+.yes span{
+    color: crimson;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    /* margin-top: 200px; */
+    width: 100%s;
+    height: 690px;
+    background-color: rgb(246, 255, 255);
+    justify-items: center;
+    /* align-items: center;
+    justify-content: center; */
+
+}
+.full{
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 85px;
+    margin-top: 50px;
+    /* flex-direction: column; */
+}
+.head{
+align-items: center;
+justify-items: center;
+text-align: center;
+font-size: 25pt;
+margin-top: 100px;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 300px;
+    height: 370px;
+    /* display: flex; */
+    padding:  37px 0px;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    background: linear-gradient( to top ,rgb(225, 45, 45) 50%, white 50% );
+    background-size: 100% 200%;
+    transition: all .5s;
+}
+.cont p
+{
+    text-align: justify;
+    padding: 25px;
+}
+.cont img{
+    width: 100px;
+    height: 80px;
+  
+}
+.cont:hover{
+    background-position: left bottom;
+   color: rgb(255, 255, 255); 
+    background-color: crimson;
+border:none;
+    box-shadow: 0 0 25px rgb(225, 45, 45);
+} 
+#pro{
+    width: 100%;
+    height: auto;
+    margin-top: -85px;
+    /* border: 2px solid black; */
+display: flex;
+flex-direction: column;
+background-color:rgb(246, 255, 255) ;
+}
+#pro h2{
+    text-align: center;
+    font-size: 28pt;
+    padding: 10px 10px;
+    margin-top: 100px;
+}
+#pro span{
+    color: crimson;
+}
+.pics{
+    display: flex;
+    
+    padding: 13px 162px;
+}
+.pics img
+{
+    height: 230px;
+    width: 250px;
+    background-repeat: no-repeat;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#form{
+    width: 100%;
+    height: 700px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(246, 255, 255) ;
+
+}
+#form h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 24pt;
+}
+#form h1 span{
+    color: crimson;
+}
+.add{
+width: 50%;
+height:500px;
+
+display: flex;
+    flex-direction: column;
+margin-top: 5px;
+
+
+}
+.add h3{
+    padding: 26px 0px;
+}
+.form{
+width: 50%;
+display: flex;
+padding: 10px 10px;
+margin-left: 198px
+}
+.form input{
+    height: 40px;
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.form textarea{
+    height: 150px;
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.form button{
+    height: 40px;
+    width: 30%;
+    font-size: 12pt;
+    padding: 10px 10px;
+    margin-top: 20px;
+justify-items: center;
+border-radius: 10px;
+    border: 1px solid black;}
+
+.form button:hover{
+    background-color: crimson;
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+    border: none;
+
+    box-shadow: 0 0 5px crimson, 0 0 10px crimson, 0 0 15px crimson;
+}
+#foot{
+    background-color:rgb(246, 255, 255) ;
+    height: 40px;
+}
+.footer p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
